@@ -13,6 +13,13 @@ npm start
 
 Também funciona abrindo `index.html` direto no navegador. O servidor local é recomendado porque a API de área de transferência (botão "Compartilhar") exige um contexto seguro.
 
+## GitHub Pages
+
+O site é publicado automaticamente no GitHub Pages via [GitHub Actions](.github/workflows/deploy.yml) a cada push na branch `main`. Não é necessário build: o projeto é 100% estático.
+
+O deploy é acionado automaticamente, mas também pode ser disparado manualmente na aba "Actions" do repositório.
+
+
 ## Modalidades
 
 | modalidade | palavras | tentativas |

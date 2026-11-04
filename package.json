@@ -1,0 +1,11 @@
+{
+  "name": "omret",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clone de termo, dueto e quarteto com as palavras da biblioteca.json.",
+  "type": "module",
+  "scripts": {
+    "start": "node servidor.mjs",
+    "palavras": "node ferramentas/gerar-palavras.mjs"
+  }
+}

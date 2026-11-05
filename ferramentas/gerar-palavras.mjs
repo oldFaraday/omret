@@ -18,6 +18,7 @@ const palavras = [];
 for (const item of bruto) {
   const com = String(item?.com_especiais ?? '').trim();
   const sem = String(item?.sem_especiais ?? '').trim().toLowerCase();
+  const significado = String(item?.significado ?? '').trim();
 
   if (!/^[a-z]{5}$/.test(sem)) {
     throw new Error(`Palavra inválida em biblioteca.json: ${JSON.stringify(item)}`);
@@ -25,7 +26,7 @@ for (const item of bruto) {
   if (vistos.has(sem)) continue; // garante uma única entrada por palavra normalizada
 
   vistos.add(sem);
-  palavras.push([com, sem]);
+  palavras.push([com, sem, significado]);
 }
 
 palavras.sort((a, b) => a[1].localeCompare(b[1], 'pt-BR'));

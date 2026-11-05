@@ -26,7 +26,11 @@
     quarteto: { nome: 'quarteto', tabuleiros: 4, tentativas: 9 },
   };
 
-  const BIBLIOTECA = (window.OMRET_PALAVRAS || []).map(([com, sem]) => ({ com, sem }));
+  const BIBLIOTECA = (window.OMRET_PALAVRAS || []).map(([com, sem, significado]) => ({
+    com,
+    sem,
+    significado,
+  }));
   const POR_PALAVRA = new Map(BIBLIOTECA.map((p) => [p.sem, p]));
   const DICIONARIO = new Set(BIBLIOTECA.map((p) => p.sem));
 
@@ -60,6 +64,10 @@
     dlgEstatisticas: document.getElementById('dlgEstatisticas'),
     dlgResultado: document.getElementById('dlgResultado'),
     dlgBiblioteca: document.getElementById('dlgBiblioteca'),
+    dlgConfirmar: document.getElementById('dlgConfirmar'),
+    confirmacaoMensagem: document.getElementById('confirmacaoMensagem'),
+    btnConfirmarOk: document.getElementById('btnConfirmarOk'),
+    btnConfirmarCancelar: document.getElementById('btnConfirmarCancelar'),
     buscaPalavra: document.getElementById('buscaPalavra'),
     listaPalavras: document.getElementById('listaPalavras'),
     contagemBiblioteca: document.getElementById('contagemBiblioteca'),
@@ -968,6 +976,15 @@
       });
 
       grupo.appendChild(linha);
+
+      const info = POR_PALAVRA.get(alvo);
+      if (info?.significado) {
+        const significado = document.createElement('p');
+        significado.className = 'resultado-significado';
+        significado.textContent = info.significado;
+        grupo.appendChild(significado);
+      }
+
       el.resultadoPalavras.appendChild(grupo);
     });
 
@@ -1041,6 +1058,27 @@
      Nova rodada / diário / modalidades
      ------------------------------------------------------------------------ */
 
+  function confirmar(mensagem) {
+    let resolvido = false;
+    return new Promise((resolve) => {
+      el.confirmacaoMensagem.textContent = mensagem;
+      const finalizar = (ok) => {
+        if (resolvido) return;
+        resolvido = true;
+        el.dlgConfirmar.close();
+        resolve(ok);
+      };
+      const okOk = () => finalizar(true);
+      const okCancelar = () => finalizar(false);
+      el.btnConfirmarOk.addEventListener('click', okOk, { once: true });
+      el.btnConfirmarCancelar.addEventListener('click', okCancelar, { once: true });
+      el.dlgConfirmar.addEventListener('close', () => {
+        if (!resolvido) finalizar(false);
+      }, { once: true });
+      el.dlgConfirmar.showModal();
+    });
+  }
+
   function entrarPratica() {
     const modo = dados.modo;
     if (dados.ativos[modo] === 'pratica') return;
@@ -1050,7 +1088,7 @@
     renderizarTudo();
   }
 
-  function novaRodada() {
+  async function novaRodada() {
     const modo = dados.modo;
     const atual = jogoAtual();
 
@@ -1067,7 +1105,7 @@
 
       if (
         statusJogo(atual) === 'jogando'
-        && !window.confirm('Começar uma nova prática? A rodada atual será substituída.')
+        && !(await confirmar('Começar uma nova prática? A rodada atual será substituída.'))
       ) {
         return;
       }

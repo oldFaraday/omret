@@ -57,6 +57,7 @@
     btnTema: document.getElementById('btnTema'),
     btnBiblioteca: document.getElementById('btnBiblioteca'),
     btnCompartilhar: document.getElementById('btnCompartilhar'),
+    btnBaixarImagem: document.getElementById('btnBaixarImagem'),
     btnNovoResultado: document.getElementById('btnNovoResultado'),
     placarPratica: document.getElementById('placarPratica'),
     aviso: document.getElementById('aviso'),
@@ -1015,6 +1016,240 @@
     return linhas.join('\n');
   }
 
+  /* ------------------------------------------------------------------------
+     Geração de imagem compartilhável (Canvas)
+     ------------------------------------------------------------------------ */
+
+  function lerCor(variavel, fallback) {
+    const valor = getComputedStyle(document.documentElement)
+      .getPropertyValue(variavel)
+      .trim();
+    return valor || fallback;
+  }
+
+  function corTextoCelula(estado) {
+    return { certa: '#ffffff', presente: '#241c0c', ausente: '#ffffff' }[estado];
+  }
+
+  async function gerarImagemResultado(jogo) {
+    const cfg = MODOS[jogo.modo];
+    const ganhou = statusJogo(jogo) === 'ganhou';
+    const escala = 2;
+    const celula = 56 * escala;
+    const gap = 8 * escala;
+    const padding = 32 * escala;
+    const espacoTabuleiro = 24 * escala;
+
+    const cores = {
+      fundo: lerCor('--fundo', '#f6f2e8'),
+      texto: lerCor('--texto', '#201d18'),
+      textoFraco: lerCor('--texto-fraco', '#746c5c'),
+      acento: lerCor('--acento', '#0f6b55'),
+      certa: lerCor('--certa', '#166534'),
+      presente: lerCor('--presente', '#c2912b'),
+      ausente: lerCor('--ausente', '#6f6859'),
+    };
+
+    const qtdPalavras = jogo.alvos.length;
+    const nLinhas = jogo.palpites.length;
+
+    const larguraGrid = celula * 5 + gap * 4;
+    const largura = padding * 2 + larguraGrid;
+
+    let altura = padding;
+    altura += 48 * escala; // título omret
+    altura += 10 * escala;
+    altura += 20 * escala; // modo/data
+    altura += 14 * escala;
+    altura += 22 * escala; // status
+    altura += 24 * escala;
+
+    jogo.alvos.forEach((_, indice) => {
+      altura += 20 * escala; // label "palavra N" (só se > 1)
+      if (qtdPalavras > 1) altura += 8 * escala;
+      altura += nLinhas * (celula + gap) - gap; // grid de células
+      altura += 12 * escala;
+      altura += 30 * escala; // palavra completa
+      altura += 8 * escala;
+      // significado estimado: 2 linhas
+      const info = POR_PALAVRA.get(jogo.alvos[indice]);
+      if (info?.significado) {
+        altura += 2 * (16 * escala) + 4 * escala;
+      }
+      altura += espacoTabuleiro;
+    });
+
+    altura -= espacoTabuleiro;
+    altura += padding;
+
+    const canvas = document.createElement('canvas');
+    canvas.width = largura;
+    canvas.height = altura;
+    const ctx = canvas.getContext('2d');
+
+    ctx.scale(escala, escala);
+    const W = largura / escala;
+    const P = padding / escala;
+    const C = celula / escala;
+    const G = gap / escala;
+
+    // Fundo
+    ctx.fillStyle = cores.fundo;
+    ctx.fillRect(0, 0, W, altura / escala);
+
+    let y = P;
+
+    // Título omret
+    ctx.fillStyle = cores.texto;
+    ctx.font = 'bold 24px Georgia, serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('omret', P, y + 24);
+    y += 48;
+
+    // Modo / data
+    ctx.fillStyle = cores.textoFraco;
+    ctx.font = '12px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+    const modoTexto = `${jogo.modo}${jogo.tipo === 'diario' ? ` · ${dataCurta(jogo.data)}` : jogo.tipo === 'pratica' ? ' · prática' : ' · livre'}`;
+    ctx.fillText(modoTexto, P, y + 12);
+    y += 20;
+
+    y += 14;
+
+    // Status
+    const ganhouTexto = ganhou
+      ? `resolvido em ${jogo.palpites.length} de ${cfg.tentativas} tentativas`
+      : `não resolvido em ${cfg.tentativas} tentativas`;
+    ctx.fillStyle = cores.acento;
+    ctx.font = 'bold 16px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+    ctx.fillText(ganhouTexto, P, y + 16);
+    y += 24;
+
+    jogo.alvos.forEach((alvo, indice) => {
+      const info = POR_PALAVRA.get(alvo);
+      const completa = (info && info.com) || alvo;
+      const venceu = indiceResolucao(jogo, indice) >= 0;
+
+      if (qtdPalavras > 1) {
+        ctx.fillStyle = cores.textoFraco;
+        ctx.font = 'bold 10px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+        ctx.textAlign = 'left';
+        ctx.fillText(`palavra ${indice + 1}`, P, y + 10);
+        y += 20;
+      }
+
+      // Grid de células
+      const limite = venceu ? indiceResolucao(jogo, indice) : jogo.palpites.length - 1;
+      for (let linha = 0; linha <= limite; linha++) {
+        const jogada = jogo.palpites[linha];
+        for (let coluna = 0; coluna < 5; coluna++) {
+          const estado = jogada.resultados[indice][coluna];
+          const letra = jogada.palavra[coluna];
+          const x = P + coluna * (C + G);
+          const yy = y + linha * (C + G);
+          ctx.fillStyle = cores[estado];
+          ctx.beginPath();
+          ctx.roundRect(x, yy, C, C, Math.max(5, C * 0.13));
+          ctx.fill();
+          ctx.fillStyle = corTextoCelula(estado);
+          ctx.font = 'bold 20px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(letra.toUpperCase(), x + C / 2, yy + C / 2 + 1);
+        }
+      }
+
+      y += nLinhas * (C + G) - G;
+      y += 12;
+
+      // Palavra completa
+      ctx.fillStyle = venceu ? cores.certa : cores.textoFraco;
+      ctx.font = 'bold 20px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+      ctx.textAlign = 'center';
+      ctx.fillText(completa.toUpperCase(), W / 2, y + 20);
+      y += 30;
+
+      y += 8;
+
+      // Significado
+      if (info?.significado) {
+        ctx.fillStyle = cores.textoFraco;
+        ctx.font = '14px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'top';
+        // Quebra simples de linha
+        const maximo = W - P * 2;
+        const palavras = info.significado.split(' ');
+        let linhaTexto = '';
+        let linhasTexto = [];
+        for (const palavra of palavras) {
+          const teste = (linhaTexto + ' ' + palavra).trim();
+          if (ctx.measureText(teste).width > maximo && linhaTexto !== '') {
+            linhasTexto.push(linhaTexto);
+            linhaTexto = palavra;
+          } else {
+            linhaTexto = teste;
+          }
+        }
+        if (linhaTexto !== '') linhasTexto.push(linhaTexto);
+        for (const l of linhasTexto) {
+          ctx.fillText(l, W / 2, y);
+          y += 16;
+        }
+        y += 4;
+      }
+
+      y += espacoTabuleiro / escala;
+    });
+
+    y -= espacoTabuleiro / escala;
+    y += P;
+
+    // Rodapé
+    ctx.fillStyle = cores.textoFraco;
+    ctx.font = '11px ' + getComputedStyle(document.documentElement).getPropertyValue('--fonte');
+    ctx.textAlign = 'center';
+    ctx.fillText('omret — descubra palavras de cinco letras', W / 2, y + 11);
+
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+    return blob;
+  }
+
+  async function baixarImagem(blob, nome) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = nome;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
+  async function compartilhar() {
+    const jogo = jogoAtual();
+    try {
+      const blob = await gerarImagemResultado(jogo);
+      const dataCurtaFormatada = jogo.data.replace(/-/g, '');
+      const nome = `omret-${jogo.modo}-${dataCurtaFormatada}.png`;
+
+      if (navigator.share) {
+        try {
+          const arquivo = new File([blob], nome, { type: 'image/png' });
+          await navigator.share({ files: [arquivo], title: 'Resultado omret' });
+          avisar('Imagem compartilhada.');
+          return;
+        } catch {
+          // compartilhamento direto indisponível: cai para download
+        }
+      }
+
+      await baixarImagem(blob, nome);
+      avisar('Imagem salva.');
+    } catch {
+      avisar('Não foi possível gerar a imagem.');
+    }
+  }
+
   async function copiarTexto(texto) {
     if (navigator.clipboard && window.isSecureContext) {
       return navigator.clipboard.writeText(texto);
@@ -1330,6 +1565,7 @@
     el.btnTema.addEventListener('click', alternarTema);
     el.btnBiblioteca.addEventListener('click', abrirBiblioteca);
     el.btnCompartilhar.addEventListener('click', compartilhar);
+    el.btnBaixarImagem.addEventListener('click', () => compartilhar());
 
     el.btnNovoResultado.addEventListener('click', () => {
       const eraPratica = jogoAtual().tipo === 'pratica';

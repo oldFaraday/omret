@@ -1229,8 +1229,7 @@
     const jogo = jogoAtual();
     try {
       const blob = await gerarImagemResultado(jogo);
-      const dataCurtaFormatada = jogo.data.replace(/-/g, '');
-      const nome = `omret-${jogo.modo}-${dataCurtaFormatada}.png`;
+      const nome = `omret-${jogo.modo}-${jogo.data.replace(/-/g, '')}.png`;
 
       if (navigator.share) {
         try {
@@ -1239,10 +1238,27 @@
           avisar('Imagem compartilhada.');
           return;
         } catch {
-          // compartilhamento direto indisponível: cai para download
+          // compartilhamento de arquivo indisponível: tenta compartilhar texto
         }
       }
 
+      await copiarTexto(textoCompartilhar(jogo));
+      const original = el.btnCompartilhar.textContent;
+      el.btnCompartilhar.textContent = 'Copiado!';
+      avisar('Resultado copiado.');
+      window.setTimeout(() => {
+        el.btnCompartilhar.textContent = original;
+      }, 1600);
+    } catch {
+      avisar('Não foi possível gerar a imagem.');
+    }
+  }
+
+  async function baixarImagemResultado() {
+    const jogo = jogoAtual();
+    try {
+      const blob = await gerarImagemResultado(jogo);
+      const nome = `omret-${jogo.modo}-${jogo.data.replace(/-/g, '')}.png`;
       await baixarImagem(blob, nome);
       avisar('Imagem salva.');
     } catch {
@@ -1550,7 +1566,7 @@
     el.btnTema.addEventListener('click', alternarTema);
     el.btnBiblioteca.addEventListener('click', abrirBiblioteca);
     el.btnCompartilhar.addEventListener('click', compartilhar);
-    el.btnBaixarImagem.addEventListener('click', () => compartilhar());
+    el.btnBaixarImagem.addEventListener('click', baixarImagemResultado);
 
     el.btnNovoResultado.addEventListener('click', () => {
       const eraPratica = jogoAtual().tipo === 'pratica';

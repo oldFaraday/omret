@@ -1274,21 +1274,6 @@
     });
   }
 
-  async function compartilhar() {
-    const jogo = jogoAtual();
-    try {
-      await copiarTexto(textoCompartilhar(jogo));
-      const original = el.btnCompartilhar.textContent;
-      el.btnCompartilhar.textContent = 'Copiado!';
-      avisar('Resultado copiado.');
-      window.setTimeout(() => {
-        el.btnCompartilhar.textContent = original;
-      }, 1600);
-    } catch {
-      avisar('Não foi possível copiar o resultado.');
-    }
-  }
-
   /* ------------------------------------------------------------------------
      Nova rodada / diário / modalidades
      ------------------------------------------------------------------------ */

@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#201d18"/>
-  <rect x="9" y="9" width="46" height="46" rx="9" fill="#2f7d5f"/>
-  <text x="32" y="45" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#fffdf7">o</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.391304,0,0,1.391304,-12.521739,-12.521739)">
+        <path d="M48.531,9C52.101,9 55,11.899 55,15.469L55,48.531C55,52.101 52.101,55 48.531,55L15.469,55C11.899,55 9,52.101 9,48.531L9,15.469C9,11.899 11.899,9 15.469,9L48.531,9Z" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(2.496227,0,0,2.496227,31.813514,54.005311)">
+        <text x="-10.384px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:34px;fill:rgb(255,253,247);">o</text>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-42.804718,42.653997,-42.653997,-42.804718,55,9)"><stop offset="0" style="stop-color:rgb(22,93,65);stop-opacity:1"/><stop offset="0.55" style="stop-color:rgb(32,109,79);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(70,168,130);stop-opacity:1"/></linearGradient>
+    </defs>
 </svg>

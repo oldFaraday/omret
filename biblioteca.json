@@ -35,6 +35,11 @@
     "significado": "Antiga moeda de prata da Pérsia e da Índia; unidade de massa."
   },
   {
+    "com_especiais": "ábaco",
+    "sem_especiais": "abaco",
+    "significado": "Instrumento antigo de cálculo formado por contas deslizantes."
+  },
+  {
     "com_especiais": "abada",
     "sem_especiais": "abada",
     "significado": "Fêmea do rinoceronte; também aba grande ou grande quantidade."
@@ -365,6 +370,16 @@
     "significado": "Nome alquímico do chumbo."
   },
   {
+    "com_especiais": "ácida",
+    "sem_especiais": "acida",
+    "significado": "Que tem sabor azedo; que contém ácido."
+  },
+  {
+    "com_especiais": "ácido",
+    "sem_especiais": "acido",
+    "significado": "Substância que libera íons de hidrogênio; sabor azedo."
+  },
+  {
     "com_especiais": "acima",
     "sem_especiais": "acima",
     "significado": "Em direção à parte superior; em lugar mais alto."
@@ -515,6 +530,11 @@
     "significado": "Planta de nome indígena, comum em regiões tropicais."
   },
   {
+    "com_especiais": "adega",
+    "sem_especiais": "adega",
+    "significado": "Compartimento fresco onde se guardam vinhos."
+  },
+  {
     "com_especiais": "adege",
     "sem_especiais": "adege",
     "significado": "Compartimento onde se guardam bebidas; adega."
@@ -655,6 +675,11 @@
     "significado": "Crustáceo de água doce, encontrado no sul da América do Sul."
   },
   {
+    "com_especiais": "aéreo",
+    "sem_especiais": "aereo",
+    "significado": "Relativo ao ar; que ocorre ou se move no ar."
+  },
+  {
     "com_especiais": "afago",
     "sem_especiais": "afago",
     "significado": "Ato de afagar; carícia ou demonstração de carinho."
@@ -673,6 +698,11 @@
     "com_especiais": "afefé",
     "sem_especiais": "afefe",
     "significado": "Vento forte associado às aparições de Iansã no candomblé."
+  },
+  {
+    "com_especiais": "afeta",
+    "sem_especiais": "afeta",
+    "significado": "Que produz efeito sobre algo; forma do verbo afetar."
   },
   {
     "com_especiais": "afeto",
@@ -703,6 +733,11 @@
     "com_especiais": "afins",
     "sem_especiais": "afins",
     "significado": "Plural de afim; que têm semelhança ou parentesco."
+  },
+  {
+    "com_especiais": "afixo",
+    "sem_especiais": "afixo",
+    "significado": "Elemento gramatical preso ao radical, como prefixo ou sufixo."
   },
   {
     "com_especiais": "aflar",
@@ -773,6 +808,11 @@
     "com_especiais": "agami",
     "sem_especiais": "agami",
     "significado": "Ave galinácea da América do Sul, de plumagem cinzenta."
+  },
+  {
+    "com_especiais": "ágape",
+    "sem_especiais": "agape",
+    "significado": "Refeição fraterna dos primeiros cristãos; amor fraternal."
   },
   {
     "com_especiais": "agaré",
@@ -883,6 +923,11 @@
     "com_especiais": "agues",
     "sem_especiais": "agues",
     "significado": "Flexão do verbo aguemar; regar ou borrifar."
+  },
+  {
+    "com_especiais": "águia",
+    "sem_especiais": "aguia",
+    "significado": "Ave de rapina diurna de grande porte e visão aguçada."
   },
   {
     "com_especiais": "aguti",
@@ -1095,6 +1140,11 @@
     "significado": "Unir. Combinar. Fazer ligação de. Confederar."
   },
   {
+    "com_especiais": "álibi",
+    "sem_especiais": "alibi",
+    "significado": "Alegação de que o acusado estava em outro lugar no momento do crime."
+  },
+  {
     "com_especiais": "alijó",
     "sem_especiais": "alijo",
     "significado": "Barcaça ou canoa, que acompanha um navio."
@@ -1155,6 +1205,11 @@
     "significado": "Que se ama. Querido. Indivíduo amado."
   },
   {
+    "com_especiais": "âmago",
+    "sem_especiais": "amago",
+    "significado": "Parte mais íntima ou profunda de algo; cerne."
+  },
+  {
     "com_especiais": "amame",
     "sem_especiais": "amame",
     "significado": "Diz-se do cavalo, que tem duas cores, preta e branca."
@@ -1178,6 +1233,11 @@
     "com_especiais": "ambão",
     "sem_especiais": "ambao",
     "significado": "Variante de ambom; púlpito ou tribuna de igreja."
+  },
+  {
+    "com_especiais": "âmbar",
+    "sem_especiais": "ambar",
+    "significado": "Resina fóssil amarelada usada em joias e perfumes."
   },
   {
     "com_especiais": "ambel",
@@ -2110,6 +2170,11 @@
     "significado": "Planta gramínea comestível; cereal usado na alimentação."
   },
   {
+    "com_especiais": "ávido",
+    "sem_especiais": "avido",
+    "significado": "Que deseja muito; ansioso, sequioso."
+  },
+  {
     "com_especiais": "aviso",
     "sem_especiais": "aviso",
     "significado": "Ato de avisar; advertência, comunicação; embarcação de vigilância."
@@ -2123,6 +2188,11 @@
     "com_especiais": "azedo",
     "sem_especiais": "azedo",
     "significado": "Que tem sabor ácido; azedume; pessoa de mau humor."
+  },
+  {
+    "com_especiais": "ázimo",
+    "sem_especiais": "azimo",
+    "significado": "Pão não fermentado, feito sem levedura."
   },
   {
     "com_especiais": "azoto",
@@ -2143,6 +2213,11 @@
     "com_especiais": "bacia",
     "sem_especiais": "bacia",
     "significado": "Vaso largo para lavar rosto ou mãos; prato de balança; região hidrográfica."
+  },
+  {
+    "com_especiais": "bagre",
+    "sem_especiais": "bagre",
+    "significado": "Peixe de água doce, de pele lisa e sem escamas."
   },
   {
     "com_especiais": "baila",
@@ -2235,6 +2310,11 @@
     "significado": "Embarcação; designação genérica de qualquer navio."
   },
   {
+    "com_especiais": "bardo",
+    "sem_especiais": "bardo",
+    "significado": "Poeta dos antigos povos celtas; cantor épico."
+  },
+  {
     "com_especiais": "barra",
     "sem_especiais": "barra",
     "significado": "Peça comprida de metal; faixa; obstáculo na foz de rio."
@@ -2265,9 +2345,19 @@
     "significado": "Cosmético colorido aplicado nos lábios."
   },
   {
+    "com_especiais": "beato",
+    "sem_especiais": "beato",
+    "significado": "Que vive com grande devoção religiosa; santarrão."
+  },
+  {
     "com_especiais": "beber",
     "sem_especiais": "beber",
     "significado": "Ingerir líquido; absorver; consumir bebida alcoólica."
+  },
+  {
+    "com_especiais": "beiço",
+    "sem_especiais": "beico",
+    "significado": "Lábio, especialmente o inferior; lábio saliente."
   },
   {
     "com_especiais": "beija",
@@ -2325,6 +2415,11 @@
     "significado": "Haste rígida que transmite movimento entre peças de máquina."
   },
   {
+    "com_especiais": "bílis",
+    "sem_especiais": "bilis",
+    "significado": "Líquido amarelo-esverdeado produzido pelo fígado; fel."
+  },
+  {
     "com_especiais": "birra",
     "sem_especiais": "birra",
     "significado": "Teima, obstinação; zanga; mau hábito de cavalgaduras."
@@ -2378,6 +2473,11 @@
     "com_especiais": "bonde",
     "sem_especiais": "bonde",
     "significado": "Veículo elétrico urbano sobre trilhos; carro americano."
+  },
+  {
+    "com_especiais": "bônus",
+    "sem_especiais": "bonus",
+    "significado": "Vantagem adicional; gratificação ou prêmio."
   },
   {
     "com_especiais": "borda",
@@ -2510,6 +2610,11 @@
     "significado": "Escultura da cabeça e parte do peito; parte superior do corpo."
   },
   {
+    "com_especiais": "cabal",
+    "sem_especiais": "cabal",
+    "significado": "Completo, perfeito; que não deixa dúvidas."
+  },
+  {
     "com_especiais": "cabem",
     "sem_especiais": "cabem",
     "significado": "Flexão de caber; têm lugar, encaixam-se, são compatíveis."
@@ -2543,6 +2648,11 @@
     "com_especiais": "cacho",
     "sem_especiais": "cacho",
     "significado": "Conjunto de frutos ou flores no mesmo eixo; pescoço."
+  },
+  {
+    "com_especiais": "cacto",
+    "sem_especiais": "cacto",
+    "significado": "Planta espinhosa de regiões áridas, de caule carnudo."
   },
   {
     "com_especiais": "caixa",
@@ -2800,6 +2910,11 @@
     "significado": "Verdadeiro, evidente; infalível; determinado; convencido."
   },
   {
+    "com_especiais": "cervo",
+    "sem_especiais": "cervo",
+    "significado": "Veado macho de grande porte; mamífero ruminante."
+  },
+  {
     "com_especiais": "cesta",
     "sem_especiais": "cesta",
     "significado": "Recipiente de vime ou palha para transportar objetos."
@@ -2920,6 +3035,11 @@
     "significado": "Ave aquática de pescoço longo; poeta ou músico célebre."
   },
   {
+    "com_especiais": "ciúme",
+    "sem_especiais": "ciume",
+    "significado": "Sentimento de receio de perder alguém ou algo amado."
+  },
+  {
     "com_especiais": "civil",
     "sem_especiais": "civil",
     "significado": "Relativo aos cidadãos; não militar nem eclesiástico; cortês."
@@ -2933,6 +3053,16 @@
     "com_especiais": "claro",
     "sem_especiais": "claro",
     "significado": "Que tem luz; luminoso; límpido; evidente, compreensível."
+  },
+  {
+    "com_especiais": "clava",
+    "sem_especiais": "clava",
+    "significado": "Arma grossa de madeira; maça usada como porrete."
+  },
+  {
+    "com_especiais": "clero",
+    "sem_especiais": "clero",
+    "significado": "Conjunto de sacerdotes de uma religião."
   },
   {
     "com_especiais": "clima",
@@ -2960,9 +3090,19 @@
     "significado": "Carruagem antiga e rica; sege; pequena embarcação."
   },
   {
+    "com_especiais": "coeso",
+    "sem_especiais": "coeso",
+    "significado": "Que mantém união entre suas partes; consistente."
+  },
+  {
     "com_especiais": "cofre",
     "sem_especiais": "cofre",
     "significado": "Caixa de madeira ou metal para guardar dinheiro e valores."
+  },
+  {
+    "com_especiais": "coice",
+    "sem_especiais": "coice",
+    "significado": "Pancada desferida com o pé traseiro de um animal."
   },
   {
     "com_especiais": "coisa",
@@ -2973,6 +3113,11 @@
     "com_especiais": "colar",
     "sem_especiais": "colar",
     "significado": "Ornato para o pescoço; fazer aderir com cola; investir em emprego."
+  },
+  {
+    "com_especiais": "combo",
+    "sem_especiais": "combo",
+    "significado": "Combinação de itens vendidos juntos, geralmente com desconto."
   },
   {
     "com_especiais": "comer",
@@ -3005,6 +3150,11 @@
     "significado": "Conjunto de fios torcidos; peça vibrante de instrumentos musicais"
   },
   {
+    "com_especiais": "corno",
+    "sem_especiais": "corno",
+    "significado": "Chifre de animal; marido traído (pejorativo)."
+  },
+  {
     "com_especiais": "coroa",
     "sem_especiais": "coroa",
     "significado": "Aro de metal ou flores usado na cabeça; símbolo do poder real"
@@ -3025,6 +3175,16 @@
     "significado": "Ave preta de bico forte, associada a mau agouro; constelação austral"
   },
   {
+    "com_especiais": "coser",
+    "sem_especiais": "coser",
+    "significado": "Costurar; unir com linha e agulha."
+  },
+  {
+    "com_especiais": "cosmo",
+    "sem_especiais": "cosmo",
+    "significado": "O universo considerado como um todo ordenado."
+  },
+  {
     "com_especiais": "costa",
     "sem_especiais": "costa",
     "significado": "Faixa de terra à beira-mar; litoral; encosta ou declive"
@@ -3035,14 +3195,29 @@
     "significado": "Pele curtida de animal, usada para fabricar calçados e objetos"
   },
   {
+    "com_especiais": "coxim",
+    "sem_especiais": "coxim",
+    "significado": "Almofada ou assento estofado; travessa de apoio."
+  },
+  {
     "com_especiais": "cozer",
     "sem_especiais": "cozer",
     "significado": "Cozinhar alimento pela ação do calor; ferver em líquido"
   },
   {
+    "com_especiais": "crase",
+    "sem_especiais": "crase",
+    "significado": "Fusão de duas vogais iguais; acento grave que a indica."
+  },
+  {
     "com_especiais": "cravo",
     "sem_especiais": "cravo",
     "significado": "Prego pequeno; flor aromática; especiaria seca do craveiro"
+  },
+  {
+    "com_especiais": "credo",
+    "sem_especiais": "credo",
+    "significado": "Conjunto de crenças; interjeição de espanto."
   },
   {
     "com_especiais": "creio",
@@ -3055,14 +3230,34 @@
     "significado": "Parte gordurosa do leite; substância pastosa para a pele"
   },
   {
+    "com_especiais": "crepe",
+    "sem_especiais": "crepe",
+    "significado": "Panqueca fina e macia; tecido fino e ondulado."
+  },
+  {
+    "com_especiais": "criar",
+    "sem_especiais": "criar",
+    "significado": "Gerar, produzir; educar ou inventar."
+  },
+  {
     "com_especiais": "crime",
     "sem_especiais": "crime",
     "significado": "Ato que viola a lei e é punível; transgressão grave"
   },
   {
+    "com_especiais": "crise",
+    "sem_especiais": "crise",
+    "significado": "Momento de dificuldade ou de mudança brusca."
+  },
+  {
     "com_especiais": "cruel",
     "sem_especiais": "cruel",
     "significado": "Que causa sofrimento sem piedade; sanguinário, impiedoso"
+  },
+  {
+    "com_especiais": "cuíca",
+    "sem_especiais": "cuica",
+    "significado": "Instrumento de percussão com haste atritada por dentro."
   },
   {
     "com_especiais": "cuida",
@@ -3075,6 +3270,11 @@
     "significado": "Responsabilidade por ato errado; falta cometida; remorso"
   },
   {
+    "com_especiais": "culta",
+    "sem_especiais": "culta",
+    "significado": "Feminino de culto; que tem instrução e conhecimento."
+  },
+  {
     "com_especiais": "culto",
     "sem_especiais": "culto",
     "significado": "Homenagem religiosa; conjunto de ritos; pessoa instruída"
@@ -3085,9 +3285,24 @@
     "significado": "Peça de ferro ou madeira para fender; pessoa influente"
   },
   {
+    "com_especiais": "cupim",
+    "sem_especiais": "cupim",
+    "significado": "Inseto que se alimenta de madeira e vive em colônias."
+  },
+  {
     "com_especiais": "curar",
     "sem_especiais": "curar",
     "significado": "Restabelecer a saúde; tratar doença; preparar carne no sal"
+  },
+  {
+    "com_especiais": "curdo",
+    "sem_especiais": "curdo",
+    "significado": "Natural ou relativo ao Curdistão."
+  },
+  {
+    "com_especiais": "cúria",
+    "sem_especiais": "curia",
+    "significado": "Tribunal eclesiástico; conjunto de órgãos do governo papal."
   },
   {
     "com_especiais": "curso",
@@ -3098,6 +3313,11 @@
     "com_especiais": "curva",
     "sem_especiais": "curva",
     "significado": "Linha ou trajeto que se desvia da reta; sinuosidade"
+  },
+  {
+    "com_especiais": "cuspe",
+    "sem_especiais": "cuspe",
+    "significado": "Saliva expelida pela boca; escarro."
   },
   {
     "com_especiais": "custa",
@@ -3125,9 +3345,24 @@
     "significado": "Gerúndio de dar; que oferece, entrega ou concede"
   },
   {
+    "com_especiais": "débil",
+    "sem_especiais": "debil",
+    "significado": "Fraco, frágil; sem força ou vigor."
+  },
+  {
+    "com_especiais": "dedal",
+    "sem_especiais": "dedal",
+    "significado": "Pequena capa que protege o dedo ao costurar."
+  },
+  {
     "com_especiais": "dedos",
     "sem_especiais": "dedos",
     "significado": "Plural de dedo; prolongamentos articulados das mãos e pés"
+  },
+  {
+    "com_especiais": "deita",
+    "sem_especiais": "deita",
+    "significado": "Forma do verbo deitar; põe-se horizontalmente."
   },
   {
     "com_especiais": "deixa",
@@ -3155,9 +3390,19 @@
     "significado": "Estrutura óssea da boca usada para mastigar; saliência em forma de dente"
   },
   {
+    "com_especiais": "depor",
+    "sem_especiais": "depor",
+    "significado": "Declarar em juízo; pôr abaixo, destituir."
+  },
+  {
     "com_especiais": "desde",
     "sem_especiais": "desde",
     "significado": "Indica ponto inicial no tempo ou no espaço; a partir de"
+  },
+  {
+    "com_especiais": "deter",
+    "sem_especiais": "deter",
+    "significado": "Impedir, conter; manter sob custódia."
   },
   {
     "com_especiais": "deusa",
@@ -3240,6 +3485,11 @@
     "significado": "Tornar manso; domesticar animal; conter paixões"
   },
   {
+    "com_especiais": "dopar",
+    "sem_especiais": "dopar",
+    "significado": "Administrar substância estimulante ou entorpecente; entorpecer."
+  },
+  {
     "com_especiais": "dorme",
     "sem_especiais": "dorme",
     "significado": "Flexão de dormir; repousa em sono; terceira pessoa"
@@ -3250,9 +3500,19 @@
     "significado": "Regular por doses; misturar em proporções adequadas"
   },
   {
+    "com_especiais": "dosel",
+    "sem_especiais": "dosel",
+    "significado": "Ornamento suspenso sobre trono, altar ou leito."
+  },
+  {
     "com_especiais": "dotar",
     "sem_especiais": "dotar",
     "significado": "Dar dote; conceder como dom; beneficiar com qualidade"
+  },
+  {
+    "com_especiais": "draga",
+    "sem_especiais": "draga",
+    "significado": "Embarcação que retira material do fundo de rios e portos."
   },
   {
     "com_especiais": "drama",
@@ -3270,9 +3530,19 @@
     "significado": "Substância química ou entorpecente; coisa de pouco valor"
   },
   {
+    "com_especiais": "duche",
+    "sem_especiais": "duche",
+    "significado": "Banho de chuveiro; lavagem com jato de água."
+  },
+  {
     "com_especiais": "duelo",
     "sem_especiais": "duelo",
     "significado": "Combate entre duas pessoas; confronto entre dois lados"
+  },
+  {
+    "com_especiais": "dueto",
+    "sem_especiais": "dueto",
+    "significado": "Composição musical ou execução a duas vozes ou instrumentos."
   },
   {
     "com_especiais": "dunas",
@@ -3305,6 +3575,11 @@
     "significado": "Madeira escura e pesada; árvore que a produz; cor negra"
   },
   {
+    "com_especiais": "ébrio",
+    "sem_especiais": "ebrio",
+    "significado": "Que está embriagado; bêbado."
+  },
+  {
     "com_especiais": "ecoar",
     "sem_especiais": "ecoar",
     "significado": "Reproduzir som por reflexão; repercutir; ressoar"
@@ -3318,6 +3593,11 @@
     "com_especiais": "edito",
     "sem_especiais": "edito",
     "significado": "Ordem ou decreto oficial publicado por autoridade"
+  },
+  {
+    "com_especiais": "égide",
+    "sem_especiais": "egide",
+    "significado": "Proteção, amparo, salvaguarda."
   },
   {
     "com_especiais": "eixos",
@@ -3370,6 +3650,16 @@
     "significado": "Flexão de enviar; manda ou remete algo a alguém"
   },
   {
+    "com_especiais": "épica",
+    "sem_especiais": "epica",
+    "significado": "Obra ou poesia narrativa de caráter heroico."
+  },
+  {
+    "com_especiais": "épico",
+    "sem_especiais": "epico",
+    "significado": "Relativo à epopeia; grandioso, heroico."
+  },
+  {
     "com_especiais": "ereto",
     "sem_especiais": "ereto",
     "significado": "Que está levantado e aprumado; em posição vertical"
@@ -3380,9 +3670,24 @@
     "significado": "Cometer erro; enganar-se; vagar sem destino"
   },
   {
+    "com_especiais": "espia",
+    "sem_especiais": "espia",
+    "significado": "Pessoa que espiona; vigia, batedor."
+  },
+  {
+    "com_especiais": "esqui",
+    "sem_especiais": "esqui",
+    "significado": "Esporte e equipamento usados para deslizar sobre a neve."
+  },
+  {
     "com_especiais": "estar",
     "sem_especiais": "estar",
     "significado": "Encontrar-se em certo lugar ou condição; permanecer"
+  },
+  {
+    "com_especiais": "estio",
+    "sem_especiais": "estio",
+    "significado": "Verão; estação seca e quente do ano."
   },
   {
     "com_especiais": "etapa",
@@ -3393,6 +3698,11 @@
     "com_especiais": "ética",
     "sem_especiais": "etica",
     "significado": "Conjunto de princípios morais que orientam a conduta"
+  },
+  {
+    "com_especiais": "etilo",
+    "sem_especiais": "etilo",
+    "significado": "Grupo orgânico monovalente derivado do etano."
   },
   {
     "com_especiais": "etnia",
@@ -3425,6 +3735,11 @@
     "significado": "Resultado feliz; sucesso; boa conclusão de algo"
   },
   {
+    "com_especiais": "êxodo",
+    "sem_especiais": "exodo",
+    "significado": "Saída em massa de um povo; migração coletiva."
+  },
+  {
     "com_especiais": "expor",
     "sem_especiais": "expor",
     "significado": "Mostrar à vista; apresentar; explicar; sujeitar a risco"
@@ -3435,6 +3750,11 @@
     "significado": "Que é adicional ou superior ao normal; de qualidade ótima"
   },
   {
+    "com_especiais": "facão",
+    "sem_especiais": "facao",
+    "significado": "Faca grande e robusta, usada para cortar mato."
+  },
+  {
     "com_especiais": "fácil",
     "sem_especiais": "facil",
     "significado": "Que se faz sem dificuldade; simples; acessível"
@@ -3443,6 +3763,11 @@
     "com_especiais": "fadas",
     "sem_especiais": "fadas",
     "significado": "Plural de fada; seres mágicos femininos de contos"
+  },
+  {
+    "com_especiais": "faial",
+    "sem_especiais": "faial",
+    "significado": "Lugar onde crescem faias; bosque de faias."
   },
   {
     "com_especiais": "faixa",
@@ -3485,6 +3810,11 @@
     "significado": "Ausência; privação; erro ou culpa; carência"
   },
   {
+    "com_especiais": "faraó",
+    "sem_especiais": "farao",
+    "significado": "Título dos reis do antigo Egito."
+  },
+  {
     "com_especiais": "fardo",
     "sem_especiais": "fardo",
     "significado": "Volume grande e pesado para transporte; carga; peso moral"
@@ -3503,6 +3833,11 @@
     "com_especiais": "farra",
     "sem_especiais": "farra",
     "significado": "Festa animada e ruidosa; folia; divertimento"
+  },
+  {
+    "com_especiais": "farsa",
+    "sem_especiais": "farsa",
+    "significado": "Comédia leve e burlesca; simulação enganosa."
   },
   {
     "com_especiais": "farto",
@@ -3590,6 +3925,11 @@
     "significado": "Que sente satisfação; afortunado; próspero"
   },
   {
+    "com_especiais": "felpa",
+    "sem_especiais": "felpa",
+    "significado": "Tecido peludo; penugem ou fiapos soltos."
+  },
+  {
     "com_especiais": "fêmea",
     "sem_especiais": "femea",
     "significado": "Animal ou planta do sexo feminino; mulher"
@@ -3625,6 +3965,11 @@
     "significado": "Celebração com música e convidados; solenidade alegre"
   },
   {
+    "com_especiais": "fetal",
+    "sem_especiais": "fetal",
+    "significado": "Relativo ao feto; próprio do feto."
+  },
+  {
     "com_especiais": "feudo",
     "sem_especiais": "feudo",
     "significado": "Terra concedida por senhor a vassalo na Idade Média"
@@ -3633,6 +3978,11 @@
     "com_especiais": "fiado",
     "sem_especiais": "fiado",
     "significado": "Vendido a crédito; que tem confiança; fio de fibra"
+  },
+  {
+    "com_especiais": "fiapo",
+    "sem_especiais": "fiapo",
+    "significado": "Filamento fino; parte fibrosa que se desprende."
   },
   {
     "com_especiais": "fibra",
@@ -3660,6 +4010,11 @@
     "significado": "Relativo ao fim; último; parte que encerra algo"
   },
   {
+    "com_especiais": "finca",
+    "sem_especiais": "finca",
+    "significado": "Forma do verbo fincar; crava ou fixa no chão."
+  },
+  {
     "com_especiais": "firma",
     "sem_especiais": "firma",
     "significado": "Assinatura; empresa comercial; ponto de apoio"
@@ -3668,6 +4023,16 @@
     "com_especiais": "firme",
     "sem_especiais": "firme",
     "significado": "Fixo, estável, seguro; que não vacila; constante"
+  },
+  {
+    "com_especiais": "fisco",
+    "sem_especiais": "fisco",
+    "significado": "Órgão responsável pela arrecadação de impostos."
+  },
+  {
+    "com_especiais": "fitar",
+    "sem_especiais": "fitar",
+    "significado": "Olhar fixamente; cravar os olhos em algo."
   },
   {
     "com_especiais": "fixar",
@@ -3695,6 +4060,11 @@
     "significado": "Movimento contínuo de líquido ou pessoas; corrente"
   },
   {
+    "com_especiais": "foice",
+    "sem_especiais": "foice",
+    "significado": "Instrumento de lâmina curva usado para ceifar."
+  },
+  {
     "com_especiais": "folga",
     "sem_especiais": "folga",
     "significado": "Descanso; ócio; tempo livre; pequena saliência"
@@ -3705,6 +4075,11 @@
     "significado": "Parte verde das plantas; pedaço de papel"
   },
   {
+    "com_especiais": "folia",
+    "sem_especiais": "folia",
+    "significado": "Festa animada; divertimento ruidoso."
+  },
+  {
     "com_especiais": "fonte",
     "sem_especiais": "fonte",
     "significado": "Local onde nasce água; origem de algo; chafariz"
@@ -3713,6 +4088,11 @@
     "com_especiais": "forca",
     "sem_especiais": "forca",
     "significado": "Instrumento para enforcar; pena de morte por enforcamento"
+  },
+  {
+    "com_especiais": "forja",
+    "sem_especiais": "forja",
+    "significado": "Oficina onde se aquece e modela metal; ato de forjar."
   },
   {
     "com_especiais": "forma",
@@ -3735,6 +4115,11 @@
     "significado": "Que tem força; resistente; intenso; poderoso"
   },
   {
+    "com_especiais": "fosco",
+    "sem_especiais": "fosco",
+    "significado": "Que não reflete luz; opaco, sem brilho."
+  },
+  {
     "com_especiais": "fosso",
     "sem_especiais": "fosso",
     "significado": "Vala profunda em torno de castelo; buraco no solo"
@@ -3743,6 +4128,16 @@
     "com_especiais": "fraco",
     "sem_especiais": "fraco",
     "significado": "Que não tem força; frágil; débil; pouco intenso"
+  },
+  {
+    "com_especiais": "frade",
+    "sem_especiais": "frade",
+    "significado": "Religioso de ordem mendicante; frei."
+  },
+  {
+    "com_especiais": "fraga",
+    "sem_especiais": "fraga",
+    "significado": "Rocha escarpada; penhasco ou penedo."
   },
   {
     "com_especiais": "frase",
@@ -3755,14 +4150,49 @@
     "significado": "Peça que controla o cavalo; dispositivo para parar"
   },
   {
+    "com_especiais": "frevo",
+    "sem_especiais": "frevo",
+    "significado": "Dança e música carnavalesca típica de Pernambuco."
+  },
+  {
+    "com_especiais": "friso",
+    "sem_especiais": "friso",
+    "significado": "Faixa decorativa horizontal; moldura saliente."
+  },
+  {
+    "com_especiais": "frota",
+    "sem_especiais": "frota",
+    "significado": "Conjunto de veículos, navios ou aeronaves."
+  },
+  {
+    "com_especiais": "fruir",
+    "sem_especiais": "fruir",
+    "significado": "Desfrutar, gozar; tirar proveito de algo."
+  },
+  {
     "com_especiais": "fruta",
     "sem_especiais": "fruta",
     "significado": "Fruto comestível, geralmente doce; produto do pomar"
   },
   {
+    "com_especiais": "fugaz",
+    "sem_especiais": "fugaz",
+    "significado": "Que passa rapidamente; breve, passageiro."
+  },
+  {
+    "com_especiais": "fugir",
+    "sem_especiais": "fugir",
+    "significado": "Escapar, evitar; afastar-se de perigo."
+  },
+  {
     "com_especiais": "fundo",
     "sem_especiais": "fundo",
     "significado": "Parte mais baixa; profundidade; essência; origem"
+  },
+  {
+    "com_especiais": "fungo",
+    "sem_especiais": "fungo",
+    "significado": "Organismo sem clorofila, como cogumelos e mofos."
   },
   {
     "com_especiais": "funil",
@@ -3775,9 +4205,29 @@
     "significado": "Abrir furo; perfurar; romper; frustrar algo"
   },
   {
+    "com_especiais": "fúria",
+    "sem_especiais": "furia",
+    "significado": "Raiva intensa; ímpeto violento."
+  },
+  {
+    "com_especiais": "furor",
+    "sem_especiais": "furor",
+    "significado": "Entusiasmo arrebatador ou raiva violenta."
+  },
+  {
     "com_especiais": "furto",
     "sem_especiais": "furto",
     "significado": "Ato de furtar; roubo sem violência; coisa roubada"
+  },
+  {
+    "com_especiais": "fusão",
+    "sem_especiais": "fusao",
+    "significado": "Ato de fundir; união de elementos em um só."
+  },
+  {
+    "com_especiais": "fútil",
+    "sem_especiais": "futil",
+    "significado": "Sem importância; trivial, frívolo."
   },
   {
     "com_especiais": "fuzil",
@@ -3818,6 +4268,16 @@
     "com_especiais": "ganso",
     "sem_especiais": "ganso",
     "significado": "Ave palmípede maior que o pato; pessoa ingênua"
+  },
+  {
+    "com_especiais": "garbo",
+    "sem_especiais": "garbo",
+    "significado": "Elegância, donaire; porte distinto."
+  },
+  {
+    "com_especiais": "garça",
+    "sem_especiais": "garca",
+    "significado": "Ave pernalta de pescoço longo e bico afiado."
   },
   {
     "com_especiais": "garfo",
@@ -3890,6 +4350,11 @@
     "significado": "Comum a todos; universal; que abrange o todo"
   },
   {
+    "com_especiais": "germe",
+    "sem_especiais": "germe",
+    "significado": "Embrião vegetal; microrganismo causador de doença."
+  },
+  {
     "com_especiais": "gesso",
     "sem_especiais": "gesso",
     "significado": "Pó de sulfato de cálcio usado em construção e moldes"
@@ -3900,9 +4365,34 @@
     "significado": "Movimento do corpo que exprime ideia; sinal; aceno"
   },
   {
+    "com_especiais": "gibão",
+    "sem_especiais": "gibao",
+    "significado": "Casaco de couro ou tecido grosso; peça de vestuário."
+  },
+  {
     "com_especiais": "girar",
     "sem_especiais": "girar",
     "significado": "Mover-se em torno de um eixo; rodar; circular"
+  },
+  {
+    "com_especiais": "gíria",
+    "sem_especiais": "giria",
+    "significado": "Linguagem informal própria de um grupo social."
+  },
+  {
+    "com_especiais": "glacê",
+    "sem_especiais": "glace",
+    "significado": "Cobertura brilhante de açúcar; tecido lustroso."
+  },
+  {
+    "com_especiais": "gleba",
+    "sem_especiais": "gleba",
+    "significado": "Porção de terra cultivável; terreno."
+  },
+  {
+    "com_especiais": "glifo",
+    "sem_especiais": "glifo",
+    "significado": "Símbolo gráfico esculpido ou desenhado; sinal de escrita."
   },
   {
     "com_especiais": "globo",
@@ -3910,14 +4400,29 @@
     "significado": "Corpo esférico; representação da Terra; bola"
   },
   {
+    "com_especiais": "glote",
+    "sem_especiais": "glote",
+    "significado": "Abertura da laringe onde ficam as cordas vocais."
+  },
+  {
     "com_especiais": "gnomo",
     "sem_especiais": "gnomo",
     "significado": "Ser fantástico pequeno que habita a terra; duende"
   },
   {
+    "com_especiais": "gnose",
+    "sem_especiais": "gnose",
+    "significado": "Conhecimento espiritual; doutrina dos gnósticos."
+  },
+  {
     "com_especiais": "goela",
     "sem_especiais": "goela",
     "significado": "Parte interna da garganta; conduto da faringe"
+  },
+  {
+    "com_especiais": "golfo",
+    "sem_especiais": "golfo",
+    "significado": "Grande baía; abismo profundo."
   },
   {
     "com_especiais": "golpe",
@@ -3960,6 +4465,11 @@
     "significado": "Planta rasteira de folhas finas; unidade de massa (símbolo g)."
   },
   {
+    "com_especiais": "grana",
+    "sem_especiais": "grana",
+    "significado": "Dinheiro (informal)."
+  },
+  {
     "com_especiais": "grato",
     "sem_especiais": "grato",
     "significado": "Que sente gratidão; agradecido. Agradável, aprazível."
@@ -3973,6 +4483,11 @@
     "com_especiais": "grego",
     "sem_especiais": "grego",
     "significado": "Natural da Grécia; relativo à Grécia. Língua falada na Grécia."
+  },
+  {
+    "com_especiais": "grifo",
+    "sem_especiais": "grifo",
+    "significado": "Animal mitológico meio águia e meio leão; garra."
   },
   {
     "com_especiais": "grilo",
@@ -3990,6 +4505,16 @@
     "significado": "Voz forte emitida com esforço, que se ouve ao longe; clamor."
   },
   {
+    "com_especiais": "grosa",
+    "sem_especiais": "grosa",
+    "significado": "Lixa grossa; conjunto de doze dúzias."
+  },
+  {
+    "com_especiais": "grude",
+    "sem_especiais": "grude",
+    "significado": "Cola; massa pegajosa."
+  },
+  {
     "com_especiais": "grupo",
     "sem_especiais": "grupo",
     "significado": "Conjunto de pessoas ou coisas reunidas; agrupamento."
@@ -4000,14 +4525,34 @@
     "significado": "Caverna natural ou artificial; antro; lapa."
   },
   {
+    "com_especiais": "gueto",
+    "sem_especiais": "gueto",
+    "significado": "Área urbana onde vive uma minoria segregada."
+  },
+  {
     "com_especiais": "guiar",
     "sem_especiais": "guiar",
     "significado": "Servir de guia; conduzir, dirigir, orientar; aconselhar."
   },
   {
+    "com_especiais": "guizo",
+    "sem_especiais": "guizo",
+    "significado": "Pequena campainha; sininho."
+  },
+  {
+    "com_especiais": "guria",
+    "sem_especiais": "guria",
+    "significado": "Menina, moça (no Sul do Brasil)."
+  },
+  {
     "com_especiais": "hábil",
     "sem_especiais": "habil",
     "significado": "Que tem habilidade; perito, destro, capaz."
+  },
+  {
+    "com_especiais": "haras",
+    "sem_especiais": "haras",
+    "significado": "Criação de cavalos de raça; coudelaria."
   },
   {
     "com_especiais": "harém",
@@ -4018,6 +4563,11 @@
     "com_especiais": "harpa",
     "sem_especiais": "harpa",
     "significado": "Instrumento musical de cordas triangulares, tocado com os dedos."
+  },
+  {
+    "com_especiais": "hasta",
+    "sem_especiais": "hasta",
+    "significado": "Arma antiga de haste longa; leilão público."
   },
   {
     "com_especiais": "haste",
@@ -4040,14 +4590,34 @@
     "significado": "Encontro de vogais que não formam ditongo; separação; interrupção."
   },
   {
+    "com_especiais": "hiena",
+    "sem_especiais": "hiena",
+    "significado": "Mamífero carnívoro africano de hábitos necrófagos."
+  },
+  {
     "com_especiais": "hífen",
     "sem_especiais": "hifen",
     "significado": "Sinal gráfico (-) que une palavras ou separa sílabas."
   },
   {
+    "com_especiais": "hímen",
+    "sem_especiais": "himen",
+    "significado": "Membrana que recobre parcialmente a entrada da vagina."
+  },
+  {
+    "com_especiais": "hindu",
+    "sem_especiais": "hindu",
+    "significado": "Seguidor do hinduísmo; relativo à Índia."
+  },
+  {
     "com_especiais": "hinos",
     "sem_especiais": "hinos",
     "significado": "Plural de hino; cânticos de louvor, religiosos ou patrióticos."
+  },
+  {
+    "com_especiais": "hobby",
+    "sem_especiais": "hobby",
+    "significado": "Atividade de lazer preferida; passatempo."
   },
   {
     "com_especiais": "homem",
@@ -4095,9 +4665,24 @@
     "significado": "Plural de iate; embarcações de recreio ou de luxo."
   },
   {
+    "com_especiais": "ibero",
+    "sem_especiais": "ibero",
+    "significado": "Natural da Ibéria antiga; relativo aos ibéricos."
+  },
+  {
+    "com_especiais": "ícone",
+    "sem_especiais": "icone",
+    "significado": "Imagem sagrada; símbolo ou representação."
+  },
+  {
     "com_especiais": "idade",
     "sem_especiais": "idade",
     "significado": "Tempo de vida; número de anos; época histórica; era."
+  },
+  {
+    "com_especiais": "ideal",
+    "sem_especiais": "ideal",
+    "significado": "Que existe apenas na ideia; perfeito, modelar."
   },
   {
     "com_especiais": "ideia",
@@ -4108,6 +4693,11 @@
     "com_especiais": "ídolo",
     "sem_especiais": "idolo",
     "significado": "Imagem ou objeto de culto; pessoa muito admirada."
+  },
+  {
+    "com_especiais": "idoso",
+    "sem_especiais": "idoso",
+    "significado": "Que tem idade avançada; ancião."
   },
   {
     "com_especiais": "igual",
@@ -4133,6 +4723,16 @@
     "com_especiais": "imita",
     "sem_especiais": "imita",
     "significado": "Flexão de imitar; reproduz, copia, segue o exemplo de."
+  },
+  {
+    "com_especiais": "ímpar",
+    "sem_especiais": "impar",
+    "significado": "Que não é divisível por dois; desigual."
+  },
+  {
+    "com_especiais": "ímpio",
+    "sem_especiais": "impio",
+    "significado": "Que não tem fé; cruel, desumano."
   },
   {
     "com_especiais": "impor",
@@ -4200,6 +4800,11 @@
     "significado": "Estar deitado; estar morto ou sepultado; permanecer imóvel."
   },
   {
+    "com_especiais": "jegue",
+    "sem_especiais": "jegue",
+    "significado": "Jumento; asno de pequeno porte."
+  },
+  {
     "com_especiais": "jeito",
     "sem_especiais": "jeito",
     "significado": "Aptidão, habilidade; hábito; gesto; movimento; modos."
@@ -4223,6 +4828,11 @@
     "com_especiais": "joias",
     "sem_especiais": "joias",
     "significado": "Plural de joia; objetos preciosos de adorno; coisas de grande valor."
+  },
+  {
+    "com_especiais": "joule",
+    "sem_especiais": "joule",
+    "significado": "Unidade de energia e trabalho no Sistema Internacional."
   },
   {
     "com_especiais": "jovem",
@@ -4275,6 +4885,11 @@
     "significado": "Canoa estreita de origem esquimó, movida a remo duplo."
   },
   {
+    "com_especiais": "kefir",
+    "sem_especiais": "kefir",
+    "significado": "Bebida fermentada de leite, de origem caucasiana."
+  },
+  {
     "com_especiais": "koala",
     "sem_especiais": "koala",
     "significado": "Mamífero marsupial australiano que vive em eucaliptos."
@@ -4283,6 +4898,11 @@
     "com_especiais": "kombi",
     "sem_especiais": "kombi",
     "significado": "Utilitário Volkswagen; van usada para transporte de passageiros."
+  },
+  {
+    "com_especiais": "lábia",
+    "sem_especiais": "labia",
+    "significado": "Astúcia para convencer; loquacidade persuasiva."
   },
   {
     "com_especiais": "lábio",
@@ -4295,9 +4915,24 @@
     "significado": "Plural de lado; faces, flancos; aspectos; partidos."
   },
   {
+    "com_especiais": "lagoa",
+    "sem_especiais": "lagoa",
+    "significado": "Extensão de água menor que um lago, geralmente costeira."
+  },
+  {
     "com_especiais": "lagos",
     "sem_especiais": "lagos",
     "significado": "Plural de lago; extensões de água doce cercadas de terra."
+  },
+  {
+    "com_especiais": "laico",
+    "sem_especiais": "laico",
+    "significado": "Que não pertence ao clero; secular."
+  },
+  {
+    "com_especiais": "lance",
+    "sem_especiais": "lance",
+    "significado": "Arremesso; jogada; peripécia de um acontecimento."
   },
   {
     "com_especiais": "lápis",
@@ -4350,9 +4985,19 @@
     "significado": "Parecer técnico de perito ou árbitro; decisão fundamentada."
   },
   {
+    "com_especiais": "lauto",
+    "sem_especiais": "lauto",
+    "significado": "Abundante, suntuoso; farto."
+  },
+  {
     "com_especiais": "lavar",
     "sem_especiais": "lavar",
     "significado": "Limpar com água; purificar; banhar; levar embora pela corrente."
+  },
+  {
+    "com_especiais": "lavra",
+    "sem_especiais": "lavra",
+    "significado": "Extração de minério; cultivo da terra."
   },
   {
     "com_especiais": "lazer",
@@ -4390,6 +5035,11 @@
     "significado": "Cama; móvel para dormir; álveo de rio; camada de terreno."
   },
   {
+    "com_especiais": "lenço",
+    "sem_especiais": "lenco",
+    "significado": "Peça de tecido usada para limpar o rosto ou o nariz."
+  },
+  {
     "com_especiais": "lenda",
     "sem_especiais": "lenda",
     "significado": "Narrativa tradicional de fatos fantásticos; mito; invenção."
@@ -4415,6 +5065,11 @@
     "significado": "Que se move devagar; vagaroso; moroso; viscoso."
   },
   {
+    "com_especiais": "lepra",
+    "sem_especiais": "lepra",
+    "significado": "Doença infecciosa que afeta pele e nervos."
+  },
+  {
     "com_especiais": "leque",
     "sem_especiais": "leque",
     "significado": "Abanico de pano ou papel com varetas; conjunto em forma de leque."
@@ -4430,6 +5085,11 @@
     "significado": "Ferimento; dano; alteração patológica de tecido ou órgão."
   },
   {
+    "com_especiais": "lesar",
+    "sem_especiais": "lesar",
+    "significado": "Causar lesão ou prejuízo; prejudicar."
+  },
+  {
     "com_especiais": "lesma",
     "sem_especiais": "lesma",
     "significado": "Molusco gastrópode sem concha; pessoa indolente."
@@ -4438,6 +5098,11 @@
     "com_especiais": "leste",
     "sem_especiais": "leste",
     "significado": "Ponto cardeal onde nasce o sol; oriente; região a leste."
+  },
+  {
+    "com_especiais": "letal",
+    "sem_especiais": "letal",
+    "significado": "Que causa morte; mortal."
   },
   {
     "com_especiais": "letra",
@@ -4465,6 +5130,16 @@
     "significado": "Aquilo que se ensina ou aprende; tarefa escolar; exemplo, aviso."
   },
   {
+    "com_especiais": "licor",
+    "sem_especiais": "licor",
+    "significado": "Bebida alcoólica doce e aromática."
+  },
+  {
+    "com_especiais": "lidar",
+    "sem_especiais": "lidar",
+    "significado": "Enfrentar, trabalhar com; ocupar-se de."
+  },
+  {
     "com_especiais": "líder",
     "sem_especiais": "lider",
     "significado": "Chefe; pessoa que dirige ou encabeça um grupo; comandante."
@@ -4473,6 +5148,16 @@
     "com_especiais": "ligar",
     "sem_especiais": "ligar",
     "significado": "Apertar com corda; unir; atar; telefonar; acender; importar-se."
+  },
+  {
+    "com_especiais": "lilás",
+    "sem_especiais": "lilas",
+    "significado": "Cor violeta clara; flor de tom arroxeado."
+  },
+  {
+    "com_especiais": "limar",
+    "sem_especiais": "limar",
+    "significado": "Polir ou desgastar com lima; apagar arestas."
   },
   {
     "com_especiais": "limbo",
@@ -4490,6 +5175,11 @@
     "significado": "Mamífero carnívoro de visão aguçada; constelação boreal."
   },
   {
+    "com_especiais": "linda",
+    "sem_especiais": "linda",
+    "significado": "Feminino de lindo; bela, formosa."
+  },
+  {
     "com_especiais": "lindo",
     "sem_especiais": "lindo",
     "significado": "Belo, bonito; agradável; delicado; primoroso."
@@ -4505,9 +5195,19 @@
     "significado": "Plural de lira; instrumentos de cordas; moedas da Itália e Turquia."
   },
   {
+    "com_especiais": "lírio",
+    "sem_especiais": "lirio",
+    "significado": "Planta de flores vistosas e perfumadas."
+  },
+  {
     "com_especiais": "lista",
     "sem_especiais": "lista",
     "significado": "Tira comprida e estreita; relação, rol; enumeração."
+  },
+  {
+    "com_especiais": "litro",
+    "sem_especiais": "litro",
+    "significado": "Unidade de volume equivalente a um decímetro cúbico."
   },
   {
     "com_especiais": "livre",
@@ -4518,6 +5218,11 @@
     "com_especiais": "livro",
     "sem_especiais": "livro",
     "significado": "Conjunto de folhas impressas e encadernadas; obra literária."
+  },
+  {
+    "com_especiais": "lixar",
+    "sem_especiais": "lixar",
+    "significado": "Polir ou alisar com lixa."
   },
   {
     "com_especiais": "lobos",
@@ -4535,6 +5240,11 @@
     "significado": "Plural de loja; estabelecimentos comerciais; andares de prédio."
   },
   {
+    "com_especiais": "lomba",
+    "sem_especiais": "lomba",
+    "significado": "Elevação de terreno; ladeira ou colina."
+  },
+  {
     "com_especiais": "lombo",
     "sem_especiais": "lombo",
     "significado": "Parte carnosa ao lado da espinha dorsal; costas; dorso."
@@ -4543,6 +5253,21 @@
     "com_especiais": "longe",
     "sem_especiais": "longe",
     "significado": "A grande distância; ao longe; remotamente; distante."
+  },
+  {
+    "com_especiais": "lorde",
+    "sem_especiais": "lorde",
+    "significado": "Título de nobreza britânico; membro da Câmara dos Lordes."
+  },
+  {
+    "com_especiais": "lotar",
+    "sem_especiais": "lotar",
+    "significado": "Encher completamente; ocupar todos os lugares."
+  },
+  {
+    "com_especiais": "louca",
+    "sem_especiais": "louca",
+    "significado": "Feminino de louco; mulher que perdeu o juízo."
   },
   {
     "com_especiais": "louco",
@@ -4635,9 +5360,19 @@
     "significado": "Plural de mala; bagagens; bolsas de viagem; pessoas desagradáveis."
   },
   {
+    "com_especiais": "males",
+    "sem_especiais": "males",
+    "significado": "Plural de mal; prejuízos, desgraças."
+  },
+  {
     "com_especiais": "malha",
     "sem_especiais": "malha",
     "significado": "Nó ou volta de fio; tecido de pontos; abertura; ato de malhar."
+  },
+  {
+    "com_especiais": "malta",
+    "sem_especiais": "malta",
+    "significado": "Grupo de pessoas; multidão."
   },
   {
     "com_especiais": "malte",
@@ -4658,6 +5393,11 @@
     "com_especiais": "manda",
     "sem_especiais": "manda",
     "significado": "Legado, disposição testamentária; peditório; ordem, comando."
+  },
+  {
+    "com_especiais": "manga",
+    "sem_especiais": "manga",
+    "significado": "Fruta tropical doce; parte do vestuário que cobre o braço."
   },
   {
     "com_especiais": "manhã",
@@ -4780,6 +5520,11 @@
     "significado": "Pôr dentro; introduzir; colocar; infundir; envolver-se."
   },
   {
+    "com_especiais": "metro",
+    "sem_especiais": "metro",
+    "significado": "Unidade de comprimento do Sistema Internacional; metrô."
+  },
+  {
     "com_especiais": "mexer",
     "sem_especiais": "mexer",
     "significado": "Dar movimento; agitar; deslocar; revolver; misturar; tocar."
@@ -4795,14 +5540,34 @@
     "significado": "Planta gramínea de grãos amarelos; espiga; dinheiro (popular)."
   },
   {
+    "com_especiais": "minar",
+    "sem_especiais": "minar",
+    "significado": "Escavar; corroer lentamente; solapar."
+  },
+  {
     "com_especiais": "minha",
     "sem_especiais": "minha",
     "significado": "Flexão feminina de meu; que pertence a mim; variedade de pera."
   },
   {
+    "com_especiais": "miolo",
+    "sem_especiais": "miolo",
+    "significado": "Interior do pão ou da fruta; massa encefálica."
+  },
+  {
+    "com_especiais": "míope",
+    "sem_especiais": "miope",
+    "significado": "Que vê mal de longe; pessoa com miopia."
+  },
+  {
     "com_especiais": "mirar",
     "sem_especiais": "mirar",
     "significado": "Fitar a vista; encarar; avistar; apontar arma; almejar."
+  },
+  {
+    "com_especiais": "mirra",
+    "sem_especiais": "mirra",
+    "significado": "Resina aromática usada em perfumes e incensos."
   },
   {
     "com_especiais": "missa",
@@ -4815,9 +5580,19 @@
     "significado": "Mesclado; misturado; que resulta de mistura; confuso."
   },
   {
+    "com_especiais": "miúdo",
+    "sem_especiais": "miudo",
+    "significado": "Pequeno; filhote; moeda de pouco valor."
+  },
+  {
     "com_especiais": "moeda",
     "sem_especiais": "moeda",
     "significado": "Peça metálica usada como dinheiro; unidade monetária; cunho."
+  },
+  {
+    "com_especiais": "mogno",
+    "sem_especiais": "mogno",
+    "significado": "Madeira avermelhada de árvore tropical."
   },
   {
     "com_especiais": "molde",
@@ -4840,9 +5615,19 @@
     "significado": "Grande elevação de terra; montanha; grande quantidade; acervo."
   },
   {
+    "com_especiais": "moral",
+    "sem_especiais": "moral",
+    "significado": "Conjunto de normas de conduta; relativo aos costumes."
+  },
+  {
     "com_especiais": "morar",
     "sem_especiais": "morar",
     "significado": "Habitar, residir; permanecer; estar estabelecido em lugar."
+  },
+  {
+    "com_especiais": "morna",
+    "sem_especiais": "morna",
+    "significado": "Que está tépida; branda, sem entusiasmo."
   },
   {
     "com_especiais": "morro",
@@ -4855,9 +5640,19 @@
     "significado": "Fim da vida; ato de morrer; destruição; termo, fim."
   },
   {
+    "com_especiais": "morto",
+    "sem_especiais": "morto",
+    "significado": "Que deixou de viver; sem vida."
+  },
+  {
     "com_especiais": "mosca",
     "sem_especiais": "mosca",
     "significado": "Inseto díptero de duas asas; pessoa importuna; alvo pequeno."
+  },
+  {
+    "com_especiais": "motim",
+    "sem_especiais": "motim",
+    "significado": "Revolta coletiva; sublevação."
   },
   {
     "com_especiais": "motor",
@@ -4880,6 +5675,11 @@
     "significado": "Dar movimento; deslocar; agitar; comover; causar; suscitar."
   },
   {
+    "com_especiais": "mugir",
+    "sem_especiais": "mugir",
+    "significado": "Emitir mugido, como o boi."
+  },
+  {
     "com_especiais": "muito",
     "sem_especiais": "muito",
     "significado": "Em grande quantidade ou intensidade; abundante; excessivamente."
@@ -4895,9 +5695,29 @@
     "significado": "Universo; planeta Terra; conjunto de seres e coisas; sociedade."
   },
   {
+    "com_especiais": "munir",
+    "sem_especiais": "munir",
+    "significado": "Equipar, prover; abastecer com o necessário."
+  },
+  {
+    "com_especiais": "mural",
+    "sem_especiais": "mural",
+    "significado": "Muro; obra artística feita em parede."
+  },
+  {
     "com_especiais": "museu",
     "sem_especiais": "museu",
     "significado": "Lugar onde se conservam e expõem obras de arte e objetos de interesse."
+  },
+  {
+    "com_especiais": "musgo",
+    "sem_especiais": "musgo",
+    "significado": "Planta pequena que cresce em superfícies úmidas."
+  },
+  {
+    "com_especiais": "mútuo",
+    "sem_especiais": "mutuo",
+    "significado": "Recíproco; que se faz de parte a parte."
   },
   {
     "com_especiais": "nação",
@@ -4950,6 +5770,11 @@
     "significado": "Plural de nave; embarcações ou espaços de igreja."
   },
   {
+    "com_especiais": "navio",
+    "sem_especiais": "navio",
+    "significado": "Embarcação de grande porte para navegar no mar."
+  },
+  {
     "com_especiais": "negar",
     "sem_especiais": "negar",
     "significado": "Dizer que algo não é verdade; recusar; rejeitar."
@@ -4968,6 +5793,21 @@
     "com_especiais": "neném",
     "sem_especiais": "nenem",
     "significado": "Forma afetiva de nenê; bebê ou criança pequena."
+  },
+  {
+    "com_especiais": "nervo",
+    "sem_especiais": "nervo",
+    "significado": "Estrutura que conduz impulsos nervosos pelo corpo."
+  },
+  {
+    "com_especiais": "nicho",
+    "sem_especiais": "nicho",
+    "significado": "Cavidade em parede; lugar adequado para algo."
+  },
+  {
+    "com_especiais": "ninar",
+    "sem_especiais": "ninar",
+    "significado": "Embalar para dormir; acalentar."
   },
   {
     "com_especiais": "ninfa",
@@ -4990,6 +5830,11 @@
     "significado": "Que tem nobreza ou distinção; aristocrata; generoso; elevado."
   },
   {
+    "com_especiais": "noção",
+    "sem_especiais": "nocao",
+    "significado": "Conhecimento inicial; ideia geral sobre algo."
+  },
+  {
     "com_especiais": "noite",
     "sem_especiais": "noite",
     "significado": "Período entre o crepúsculo da tarde e o da manhã; escuridão."
@@ -4998,6 +5843,11 @@
     "com_especiais": "nomes",
     "sem_especiais": "nomes",
     "significado": "Plural de nome; designações ou palavras que identificam seres."
+  },
+  {
+    "com_especiais": "norma",
+    "sem_especiais": "norma",
+    "significado": "Regra, padrão; modelo de conduta."
   },
   {
     "com_especiais": "norte",
@@ -5030,6 +5880,16 @@
     "significado": "Plural de novo; recentes, jovens ou pouco usados."
   },
   {
+    "com_especiais": "nudez",
+    "sem_especiais": "nudez",
+    "significado": "Qualidade de estar nu; ausência de roupas."
+  },
+  {
+    "com_especiais": "numen",
+    "sem_especiais": "numen",
+    "significado": "Divindade; inspiração divina."
+  },
+  {
     "com_especiais": "nunca",
     "sem_especiais": "nunca",
     "significado": "Em nenhum tempo; jamais."
@@ -5040,9 +5900,19 @@
     "significado": "Conjunto de vapores suspensos na atmosfera; névoa; sombra."
   },
   {
+    "com_especiais": "oásis",
+    "sem_especiais": "oasis",
+    "significado": "Área fértil com água no meio de um deserto."
+  },
+  {
     "com_especiais": "obeso",
     "sem_especiais": "obeso",
     "significado": "Indivíduo excessivamente gordo, com ventre proeminente."
+  },
+  {
+    "com_especiais": "óbito",
+    "sem_especiais": "obito",
+    "significado": "Falecimento; morte de uma pessoa."
   },
   {
     "com_especiais": "obras",
@@ -5058,6 +5928,11 @@
     "com_especiais": "óbvio",
     "sem_especiais": "obvio",
     "significado": "Evidente; claro; que não oferece dúvida."
+  },
+  {
+    "com_especiais": "ocaso",
+    "sem_especiais": "ocaso",
+    "significado": "Pôr do sol; declínio, decadência."
   },
   {
     "com_especiais": "ocupa",
@@ -5115,6 +5990,16 @@
     "significado": "Escolha entre alternativas; alternativa disponível."
   },
   {
+    "com_especiais": "ópera",
+    "sem_especiais": "opera",
+    "significado": "Drama cantado com acompanhamento orquestral."
+  },
+  {
+    "com_especiais": "ópimo",
+    "sem_especiais": "opimo",
+    "significado": "Abundante, fértil; muito rico."
+  },
+  {
     "com_especiais": "ordem",
     "sem_especiais": "ordem",
     "significado": "Disposição metódica; comando; regularidade; corporação."
@@ -5138,6 +6023,11 @@
     "com_especiais": "ossos",
     "sem_especiais": "ossos",
     "significado": "Plural de osso; peças do esqueleto."
+  },
+  {
+    "com_especiais": "ostra",
+    "sem_especiais": "ostra",
+    "significado": "Molusco de concha, produtor de pérolas."
   },
   {
     "com_especiais": "ótimo",
@@ -5170,6 +6060,11 @@
     "significado": "Relativo às ovelhas; ovelhum."
   },
   {
+    "com_especiais": "óvulo",
+    "sem_especiais": "ovulo",
+    "significado": "Célula reprodutora feminina; gameta feminino."
+  },
+  {
     "com_especiais": "pacto",
     "sem_especiais": "pacto",
     "significado": "Ajuste entre duas ou mais pessoas; contrato; convenção."
@@ -5190,6 +6085,11 @@
     "significado": "Restituir o que se deve; satisfazer o preço; remunerar."
   },
   {
+    "com_especiais": "pajem",
+    "sem_especiais": "pajem",
+    "significado": "Jovem criado; auxiliar de cerimônias."
+  },
+  {
     "com_especiais": "palco",
     "sem_especiais": "palco",
     "significado": "Estrado onde os atores representam; cenário; palanque."
@@ -5203,6 +6103,11 @@
     "com_especiais": "palma",
     "sem_especiais": "palma",
     "significado": "Ramo de palmeira; parte côncava da mão; vitória."
+  },
+  {
+    "com_especiais": "pampa",
+    "sem_especiais": "pampa",
+    "significado": "Planície gramínea da América do Sul; campos sulinos."
   },
   {
     "com_especiais": "panos",
@@ -5225,6 +6130,11 @@
     "significado": "Deixar de andar; cessar o movimento; deter-se."
   },
   {
+    "com_especiais": "pardo",
+    "sem_especiais": "pardo",
+    "significado": "De cor acastanhada; mestiço de branco e negro."
+  },
+  {
     "com_especiais": "pares",
     "sem_especiais": "pares",
     "significado": "Plural de par; conjuntos de dois; alguns."
@@ -5240,9 +6150,24 @@
     "significado": "Porção de um todo; divisão; lugar; papel num acordo."
   },
   {
+    "com_especiais": "parto",
+    "sem_especiais": "parto",
+    "significado": "Nascimento; ato de dar à luz."
+  },
+  {
+    "com_especiais": "pasmo",
+    "sem_especiais": "pasmo",
+    "significado": "Espanto, assombro; estado de quem se admira."
+  },
+  {
     "com_especiais": "passa",
     "sem_especiais": "passa",
     "significado": "Fruta seca, principalmente uva; flexão de passar."
+  },
+  {
+    "com_especiais": "passe",
+    "sem_especiais": "passe",
+    "significado": "Permissão para entrar ou circular; ato de passar."
   },
   {
     "com_especiais": "passo",
@@ -5265,6 +6190,11 @@
     "significado": "Plural de pata; pés de animais."
   },
   {
+    "com_especiais": "pátio",
+    "sem_especiais": "patio",
+    "significado": "Espaço descoberto cercado por edifícios."
+  },
+  {
     "com_especiais": "pausa",
     "sem_especiais": "pausa",
     "significado": "Interrupção de uma ação por algum tempo; intervalo."
@@ -5278,6 +6208,11 @@
     "com_especiais": "pavio",
     "sem_especiais": "pavio",
     "significado": "Torcida que alimenta a chama de vela ou candeia."
+  },
+  {
+    "com_especiais": "pavor",
+    "sem_especiais": "pavor",
+    "significado": "Medo intenso; terror."
   },
   {
     "com_especiais": "pecar",
@@ -5305,6 +6240,11 @@
     "significado": "Segurar; agarrar; colar; contagiar; iniciar."
   },
   {
+    "com_especiais": "peido",
+    "sem_especiais": "peido",
+    "significado": "Gás expelido pelo ânus (informal)."
+  },
+  {
     "com_especiais": "peito",
     "sem_especiais": "peito",
     "significado": "Parte do corpo que contém os pulmões e o coração."
@@ -5330,6 +6270,11 @@
     "significado": "Instrumento com dentes para alisar o cabelo."
   },
   {
+    "com_especiais": "perca",
+    "sem_especiais": "perca",
+    "significado": "Peixe de água doce, de carne apreciada."
+  },
+  {
     "com_especiais": "perda",
     "sem_especiais": "perda",
     "significado": "Ato de perder; extravio; dano; desgraça."
@@ -5340,14 +6285,29 @@
     "significado": "Membro locomotor do corpo humano ou animal."
   },
   {
+    "com_especiais": "persa",
+    "sem_especiais": "persa",
+    "significado": "Natural ou relativo à Pérsia (Irã)."
+  },
+  {
     "com_especiais": "perto",
     "sem_especiais": "perto",
     "significado": "A pequena distância; próximo; junto."
   },
   {
+    "com_especiais": "pesar",
+    "sem_especiais": "pesar",
+    "significado": "Determinar o peso; causar tristeza ou arrependimento."
+  },
+  {
     "com_especiais": "pesca",
     "sem_especiais": "pesca",
     "significado": "Ato ou arte de pescar; aquilo que se pescou."
+  },
+  {
+    "com_especiais": "peste",
+    "sem_especiais": "peste",
+    "significado": "Epidemia grave; praga ou coisa nociva."
   },
   {
     "com_especiais": "piada",
@@ -5365,6 +6325,11 @@
     "significado": "Ferir com objeto aguçado; furar; espetar; estimular."
   },
   {
+    "com_especiais": "pilar",
+    "sem_especiais": "pilar",
+    "significado": "Coluna de sustentação; apoio principal."
+  },
+  {
     "com_especiais": "pilha",
     "sem_especiais": "pilha",
     "significado": "Montão de coisas; dispositivo que gera corrente elétrica."
@@ -5373,6 +6338,11 @@
     "com_especiais": "pingo",
     "sem_especiais": "pingo",
     "significado": "Gota; gota de gordura; banha de porco derretida."
+  },
+  {
+    "com_especiais": "pinha",
+    "sem_especiais": "pinha",
+    "significado": "Fruto do pinheiro; conjunto de escamas com sementes."
   },
   {
     "com_especiais": "pinho",
@@ -5403,6 +6373,11 @@
     "com_especiais": "pista",
     "sem_especiais": "pista",
     "significado": "Rasto de animais; vestígio; local de corrida; indício."
+  },
+  {
+    "com_especiais": "pizza",
+    "sem_especiais": "pizza",
+    "significado": "Massa assada coberta com molho e ingredientes variados."
   },
   {
     "com_especiais": "placa",
@@ -5510,9 +6485,24 @@
     "significado": "Faixa de terra, geralmente arenosa, à beira do mar."
   },
   {
+    "com_especiais": "prata",
+    "sem_especiais": "prata",
+    "significado": "Metal precioso de cor cinzenta e brilho intenso."
+  },
+  {
     "com_especiais": "prato",
     "sem_especiais": "prato",
     "significado": "Vaso para servir comida; iguaria de uma refeição."
+  },
+  {
+    "com_especiais": "praxe",
+    "sem_especiais": "praxe",
+    "significado": "Costume, rotina; prática habitual."
+  },
+  {
+    "com_especiais": "prece",
+    "sem_especiais": "prece",
+    "significado": "Oração, súplica; pedido dirigido a uma divindade."
   },
   {
     "com_especiais": "preço",
@@ -5960,6 +6950,11 @@
     "significado": "Flexão de seguir; continua, acompanha ou vai atrás de alguém ou algo."
   },
   {
+    "com_especiais": "seiva",
+    "sem_especiais": "seiva",
+    "significado": "Líquido nutritivo que circula pelos vasos das plantas."
+  },
+  {
     "com_especiais": "selar",
     "sem_especiais": "selar",
     "significado": "Pôr sela ou selo; carimbar; fechar; tornar válido; marcar definitivamente."
@@ -6013,6 +7008,11 @@
     "com_especiais": "servo",
     "sem_especiais": "servo",
     "significado": "Pessoa sujeita a senhor; criado; aquele que não exerce direitos."
+  },
+  {
+    "com_especiais": "sesta",
+    "sem_especiais": "sesta",
+    "significado": "Descanso breve, geralmente após a refeição do meio-dia."
   },
   {
     "com_especiais": "setor",
